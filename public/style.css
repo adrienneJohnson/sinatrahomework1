@@ -1,0 +1,120 @@
+body {
+	width: 920px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 10px;
+	font-family: "Palatino Linotype";
+	margin-top: 50px;
+}
+
+header {
+	font-size: 36px;
+	letter-spacing: 30px;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	text-align: center;
+}
+
+.nav-bar .nav-item {
+	display: inline;
+	font-size: 22px;
+	line-height:22px;
+	text-align: center;
+	letter-spacing: 3px;
+	margin: 0px;
+}
+
+.nav-bar {
+	border-bottom-color: #C0C0C0;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	text-align: center;
+	padding: 4px;
+	margin: 0px;
+}
+
+.nav-item {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a.show {
+	color: #686868;
+}
+.here {
+	background-color: #FFCCFF;
+}
+
+.left {
+	float: left;
+	width: 50%;
+	margin-top: 60px;
+}
+
+.right {
+	float: right;
+	width: 50%;
+	margin-top: 60px;
+}
+
+IMG.portrait {
+	float: left;
+	margin-left: 60px;
+	margin-top: 5px;
+	width: 70%;
+	height: 70%;
+}
+
+.text {
+	display: inline-block;
+	text-align: left;
+	width: 375px;
+	margin-left: auto;
+    margin-right: auto;
+ }
+
+ .contact {
+ 	text-align: left;
+	width: 375px;
+	margin-left: 180px;
+    margin-right: auto;
+    margin-top: 50px;
+ }
+
+ .pics {
+ 	height: 150px;
+	width: 150px;
+	margin: 10px;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFFCC;
+}
+
+h3 {
+	color: #C0C0C0;
+	font-family: "Palatino Linotype";
+	letter-spacing: 3px;
+}
+	
+

@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>i'm adrienne</title>
-</head>
 
-<body>
-	<header>adrienne johnson</header>
-		<ul class="nav-bar">
-			<li class="nav-item"><a href="index.html">home</a></li>
-			<li class="nav-item"><a href="portfolio.html">portfolio</a></li>
-			<li class="nav-item"><a href="interests.html">interests</a></li>
-			<li class="nav-item here"><a href="contact.html">contact</a></li>
-		</ul>
+	
 	<div class="contact">
 		<p>if you want to get in touch, email me at adriennetjohnson@gmail.com.</p>
 		<p>for more info about where i've worked, check <a href="http://www.linkedin.com/pub/adrienne-johnson/a2/821/624/" target="_blank" class="show">here</a>.</p>
 		<p>or there's <a href="https://www.facebook.com/profile.php?id=1000990" target="_blank" class="show">facebook</a>.</p>
 	</div>
+
+<% for i in 0..10 %>
+	<h3><%= i %> I like butter. </h3>
+<% end %>
 
 </body>
 </html>
